@@ -154,8 +154,7 @@ pip install xgboost   # optional
 
 # ▶️ How to Run
 * Clone the repository*
-git clone https://github.com/Muhammad72d/diabetes-classification-comparison.git
-
+git clone https://github.com/Muhammad72d/NTI/blob/main/Team%204%20-Final%20project.ipynb
 * Navigate to folder*
 cd diabetes-classification-comparison
 
