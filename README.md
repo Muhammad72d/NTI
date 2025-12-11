@@ -1,4 +1,4 @@
-📊 Dataset
+# 📊 Dataset
 
 File: Healthcare-Diabetes.csv
 
@@ -28,7 +28,7 @@ Outcome — 1 for diabetic, 0 for non-diabetic.
 
 (If your dataset includes different column names, I can adjust the README accordingly.)
 
-🎯 Project Goals
+# 🎯 Project Goals
 
 Conduct preprocessing and exploratory data analysis (EDA).
 
@@ -62,7 +62,7 @@ Visualize results (confusion matrices, ROC curves, performance comparison).
 
 Summarize insights to determine the most suitable model for this dataset.
 
-🧪 Workflow Overview
+# 🧪 Workflow Overview
 1. Data Preprocessing
 
 Handling missing values
@@ -87,7 +87,7 @@ Plot ROC curves
 
 Aggregate results into a comparison table
 
-📈 Summary of Findings
+# 📈 Summary of Findings
 
 The notebook provides:
 
@@ -99,7 +99,7 @@ Identification of the most reliable model for predicting diabetes from the Healt
 
 (Your exact results may vary depending on tuning and random state.)
 
-📊 Model Performance Results
+# 📊 Model Performance Results
 
 The following table summarises the performance of all evaluated models on the diabetes classification task using Healthcare-Diabetes.csv:
 
@@ -145,21 +145,21 @@ Simpler linear classifiers (Logistic Regression, SVC) underperformed due to the 
 
 Naive Bayes performed the weakest, likely due to violated feature-independence assumptions.
 
-🛠️ Requirements
+# 🛠️ Requirements
 
 Install required libraries:
 
 pip install numpy pandas matplotlib seaborn scikit-learn
 pip install xgboost   # optional
 
-▶️ How to Run
-# Clone the repository
+# ▶️ How to Run
+* Clone the repository*
 git clone https://github.com/Muhammad72d/diabetes-classification-comparison.git
 
-# Navigate to folder
+* Navigate to folder*
 cd diabetes-classification-comparison
 
-# Launch notebook
+* Launch notebook *
 jupyter notebook diabetes_classification_comparison.ipynb
 
 📚 References
